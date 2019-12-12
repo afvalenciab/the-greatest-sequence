@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: #333D45;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+  padding: 20px;
+  color: white;
+}
+
+.input--container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 310px;
+}
+
+h1 {
+  border-bottom: 2px solid #00BA68;
+  text-align: center;
+}
+
+.description {
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+label {
+  padding-bottom: 12px;
+}
+
+textarea {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  outline: none;
+  width: 300px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.errorField {
+  margin: 0;
+  margin-bottom: 10px;
+  color: red;
+}
+
+button {
+  background-color: #00BA68;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 1.1px;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.result-sequence {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.result {
+  font-family: 'Muli', sans-serif;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
